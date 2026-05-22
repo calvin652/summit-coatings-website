@@ -33,27 +33,30 @@ SERVICES PAGE — one photo per service
   Aspect ratio: roughly 4:3. Minimum 1200x900.
 
 ------------------------------------------
-PORTFOLIO — SUMMIT COATINGS LLC WORK
+PORTFOLIO — COMMERCIAL WORK
 ------------------------------------------
-  job1-1.jpg     — Project 1, photo 1
-  job1-2.jpg     — Project 1, photo 2
-  job1-3.jpg     — Project 1, photo 3
-  job2-1.jpg     — Project 2, photo 1
-  job2-2.jpg     — Project 2, photo 2
-  job2-3.jpg     — Project 2, photo 3
+  commercial-1.jpg   — Commercial exterior repaint
+  commercial-2.jpg   — Metal stair & railing coating
+  commercial-3.jpg   — Structural steel coating
+  commercial-4.jpg   — Warehouse floor coating
+  commercial-5.jpg   — High-bay dry-fall ceiling
+  commercial-6.jpg   — Commercial interior repaint
 
   Add more by copying a .port-item block in portfolio.html and using
-  job3-1.jpg, job3-2.jpg, etc.
+  commercial-7.jpg, commercial-8.jpg, etc.
 
 ------------------------------------------
-PORTFOLIO — PRIOR COMMERCIAL EXPERIENCE
+PORTFOLIO — RESIDENTIAL WORK
 ------------------------------------------
-  exp-exterior-1.jpg     — Prior experience, exterior
-  exp-exterior-2.jpg     — Prior experience, exterior detail
-  exp-interior-1.jpg     — Prior experience, interior
-  exp-metal-1.jpg        — Prior experience, structural steel
-  exp-floor-1.jpg        — Prior experience, floor coating
-  exp-ceiling-1.jpg      — Prior experience, dry-fall ceiling
+  residential-1.jpg  — Home exterior repaint
+  residential-2.jpg  — Interior repaint
+  residential-3.jpg  — Level 5 finish & feature wall
+  residential-4.jpg  — Garage floor coating
+  residential-5.jpg  — Trim, doors & cabinets
+  residential-6.jpg  — Surface prep & repair
+
+  Add more by copying a .port-item block in portfolio.html and using
+  residential-7.jpg, residential-8.jpg, etc.
 
 ------------------------------------------
 GENERAL TIPS

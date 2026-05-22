@@ -1,8 +1,8 @@
 # Summit Coatings LLC — Website
 
-Static marketing website for Summit Coatings LLC, a fully insured painting and
-finishing contractor based in Shelley, Idaho, serving the Idaho Falls–Pocatello
-corridor.
+Static marketing website for Summit Coatings LLC, a licensed, bonded, and insured
+painting and finishing contractor based in Pocatello, Idaho, serving residential
+and commercial customers in the Pocatello area.
 
 **Live domain (when deployed):** summitcoatingsllc.com
 
@@ -18,7 +18,7 @@ corridor.
 |------------------|----------------------------------------------------------|
 | `index.html`     | Home — hero, service overview, why us, Idaho climate, CTA |
 | `services.html`  | All six services with detail sections and climate notes  |
-| `portfolio.html` | Portfolio — Summit Coatings LLC work + prior experience  |
+| `portfolio.html` | Portfolio — Commercial Work + Residential Work          |
 | `contact.html`   | Contact — tap-to-call and mailto, business info, areas   |
 
 ## Structure
@@ -38,8 +38,8 @@ summit-coatings-website/
     ├── README.txt          (full filename list — drop photos here)
     ├── hero-bg.jpg         (you save this)
     ├── service-*.jpg       (one per service — you save these)
-    ├── job1-*.jpg ...      (Summit Coatings LLC projects)
-    └── exp-*-*.jpg         (Prior commercial experience)
+    ├── commercial-*.jpg    (Commercial Work portfolio)
+    └── residential-*.jpg   (Residential Work portfolio)
 ```
 
 ## Photos
@@ -52,7 +52,8 @@ needed. Until a file is in place, that slot shows a labeled "PLACEHOLDER" tile.
 
 The site is built with these constraints in place:
 
-- The word "licensed" is **not** used anywhere. Only "fully insured."
+- Credentials are stated as "licensed, bonded, and insured." NOTE: do not take
+  the site live until all three are actually true.
 - No prices, rates, or dollar figures appear on the site.
 - No contact form — all contact is via tap-to-call (`tel:`) and `mailto:` links.
 - License placeholder is in the footer of every page, clearly commented, ready
