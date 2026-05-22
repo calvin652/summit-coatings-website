@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <!-- LOGO PLACEHOLDER — Replace this file with your real logo (PNG or SVG) -->
+  <!-- Recommended: Export your logo as logo.svg (vector) or logo.png (2x resolution) -->
+  <rect width="160" height="160" fill="#0d1e3e" rx="4"/>
+  <!-- Mountain / summit shape -->
+  <polygon points="80,24 128,96 32,96" fill="none" stroke="#c8a84b" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="56" y1="72" x2="80" y2="24" stroke="#c8a84b" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <!-- SC initials -->
+  <text x="80" y="90" font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900"
+        fill="#c8a84b" text-anchor="middle" letter-spacing="2">SC</text>
+  <!-- Company name -->
+  <text x="80" y="116" font-family="Arial, sans-serif" font-size="8.5" font-weight="700"
+        fill="#ffffff" text-anchor="middle" letter-spacing="2.5">SUMMIT COATINGS</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="7" fill="#8a9ab5"
+        text-anchor="middle" letter-spacing="1.5">LLC — SHELLEY, IDAHO</text>
+  <!-- Placeholder label -->
+  <rect x="12" y="140" width="136" height="14" rx="2" fill="#c8a84b" opacity="0.15"/>
+  <text x="80" y="150" font-family="Arial, sans-serif" font-size="7" fill="#c8a84b"
+        text-anchor="middle" letter-spacing="1">LOGO PLACEHOLDER — REPLACE</text>
+</svg>
