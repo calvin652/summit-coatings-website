@@ -3,8 +3,10 @@ SUMMIT COATINGS LLC — IMAGE ASSET GUIDE
 
 Drop your real photos into this /images/ folder using the exact filenames listed
 below. The website's HTML already points to these filenames — no code edits
-needed. Until a real file is present, the site shows a clearly-labeled
-"PLACEHOLDER" tile so you can see exactly what goes where.
+needed. Branded navy/gold stand-in images are already in place (the hero
+background, the social preview, and the five "Our Work" tiles), so the site
+looks finished today. Saving a real .jpg with the same filename overwrites the
+stand-in automatically — no code changes.
 
 ------------------------------------------
 LOGO
@@ -21,42 +23,32 @@ HOME PAGE
                   works best. Displayed at 18% opacity over the navy background.
 
 ------------------------------------------
-SERVICES PAGE — one photo per service
+SOCIAL PREVIEW IMAGE
 ------------------------------------------
-  service-exterior.jpg   — Exterior repaint photo
-  service-interior.jpg   — Interior / Level 5 photo
-  service-metal.jpg      — Steel / metal coating photo (handrails, structural)
-  service-floor.jpg      — High-build floor coating photo
-  service-ceiling.jpg    — Dry-fall ceiling spray photo (high-bay)
-  service-prep.jpg       — Surface prep / power wash / repair photo
-
-  Aspect ratio: roughly 4:3. Minimum 1200x900.
+  og-image.jpg  — Image shown when the site is shared on Facebook, texts,
+                  LinkedIn, etc. Recommended 1200x630. Use your best finished-
+                  project photo or a branded image with the logo.
 
 ------------------------------------------
-PORTFOLIO — COMMERCIAL WORK
+PORTFOLIO — "OUR WORK" GALLERY (single combined gallery)
 ------------------------------------------
-  commercial-1.jpg   — Commercial exterior repaint
-  commercial-2.jpg   — Metal stair & railing coating
-  commercial-3.jpg   — Structural steel coating
-  commercial-4.jpg   — Warehouse floor coating
-  commercial-5.jpg   — High-bay dry-fall ceiling
-  commercial-6.jpg   — Commercial interior repaint
+  work-1.jpg   — Exterior repaint
+  work-2.jpg   — Commercial ceiling coating
+  work-3.jpg   — Interior repaint
+  work-4.jpg   — Smooth-wall feature finish
+  work-5.jpg   — Commercial interior repaint
 
   Add more by copying a .port-item block in portfolio.html and using
-  commercial-7.jpg, commercial-8.jpg, etc.
+  work-6.jpg, work-7.jpg, etc.
 
 ------------------------------------------
-PORTFOLIO — RESIDENTIAL WORK
+CREDENTIALS — fill in before launch
 ------------------------------------------
-  residential-1.jpg  — Home exterior repaint
-  residential-2.jpg  — Interior repaint
-  residential-3.jpg  — Level 5 finish & feature wall
-  residential-4.jpg  — Garage floor coating
-  residential-5.jpg  — Trim, doors & cabinets
-  residential-6.jpg  — Surface prep & repair
-
-  Add more by copying a .port-item block in portfolio.html and using
-  residential-7.jpg, residential-8.jpg, etc.
+  In the footer of every page there is a credentials strip with two
+  placeholders to replace:
+    RCE #____                       (your Idaho DOPL registration number)
+    Pocatello Class B License #____ (your City of Pocatello license number)
+  Search the HTML files for "____" to find them.
 
 ------------------------------------------
 GENERAL TIPS

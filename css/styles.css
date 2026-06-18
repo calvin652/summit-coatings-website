@@ -561,18 +561,37 @@ p  { max-width: 68ch; }
 .svc-detail:last-of-type { border-bottom: none; }
 .svc-detail-inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 56px;
   align-items: start;
 }
-.svc-detail-inner.flip { direction: rtl; }
+.svc-detail-inner.flip { direction: ltr; }
 .svc-detail-inner.flip > * { direction: ltr; }
-.svc-detail-img {
-  width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
+.svc-detail-icon {
+  width: 54px;
+  height: 54px;
+  background: var(--navy);
   border-radius: var(--radius);
-  background: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  margin-bottom: 22px;
+}
+.svc-detail-specs {
+  background: var(--off-white);
+  border: 1px solid var(--light-grey);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 26px 30px;
+}
+.svc-detail-specs h4 {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--graphite-pale);
+  margin-bottom: 6px;
 }
 /* =============================================
    IMAGE PLACEHOLDERS
@@ -636,11 +655,11 @@ p  { max-width: 68ch; }
 .img-placeholder.ph-square::before { font-size: 0.5rem; padding: 2px 6px; margin-bottom: 4px; }
 .img-placeholder.ph-square .ph-name { font-size: 0.55rem; padding: 0 4px; }
 .img-placeholder.ph-square .ph-label { display: none; }
-.svc-detail-text h3 {
+.svc-detail-head h3 {
   color: var(--navy);
   margin-bottom: 14px;
 }
-.svc-detail-text p {
+.svc-detail-head p {
   color: var(--text-mid);
   margin-bottom: 14px;
   max-width: none;
@@ -945,6 +964,69 @@ p  { max-width: 68ch; }
   font-size: 0.78rem;
   color: var(--graphite-pale);
   /* Example: Idaho Contractor License #RCE-XXXXXX */
+}
+
+/* Credentials + contact strip at the very bottom of the footer */
+.f-creds {
+  width: 100%;
+  max-width: none;
+  margin-top: 6px;
+  font-size: 0.74rem;
+  line-height: 1.8;
+  color: var(--graphite-pale);
+  text-align: center;
+}
+.f-creds a {
+  color: var(--text-light);
+  transition: color var(--ease);
+}
+.f-creds a:hover { color: var(--gold); }
+
+/* Offset anchor jumps so the fixed header doesn't cover section headings */
+[id] { scroll-margin-top: calc(var(--header-h) + 20px); }
+
+/* Skip-to-content link (accessibility) — visible only on keyboard focus */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  background: var(--gold);
+  color: var(--navy-dark);
+  padding: 10px 18px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 0 0 var(--radius) 0;
+}
+.skip-link:focus { left: 0; top: 0; }
+
+/* =============================================
+   STICKY MOBILE CALL BAR
+   ============================================= */
+.mobile-call-bar { display: none; }
+@media (max-width: 768px) {
+  .mobile-call-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 900;
+    background: var(--gold);
+    color: var(--navy-dark);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    border-top: 2px solid var(--gold-dark);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.28);
+  }
+  body { padding-bottom: 58px; }
 }
 
 /* =============================================
