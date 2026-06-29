@@ -35,11 +35,10 @@ PORTFOLIO — "OUR WORK" GALLERY (single combined gallery)
   work-1.jpg   — Exterior repaint
   work-2.jpg   — Commercial ceiling coating
   work-3.jpg   — Interior repaint
-  work-4.jpg   — Smooth-wall feature finish
-  work-5.jpg   — Commercial interior repaint
+  work-4.jpg   — Commercial interior
 
   Add more by copying a .port-item block in portfolio.html and using
-  work-6.jpg, work-7.jpg, etc.
+  work-5.jpg, work-6.jpg, etc.
 
 ------------------------------------------
 CREDENTIALS — fill in before launch
