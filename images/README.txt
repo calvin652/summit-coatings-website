@@ -35,7 +35,7 @@ PORTFOLIO — "OUR WORK" GALLERY (single combined gallery)
 ------------------------------------------
   work-1.jpg   — Commercial interior
   work-2.jpg   — Commercial ceiling & walls
-  work-3.jpg   — Mechanical room
+  work-3.jpg   — Mechanical room floor
   work-4.jpg   — Kitchen repaint
   work-5.jpg   — Living room repaint
 
