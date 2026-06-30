@@ -11,9 +11,10 @@ stand-in automatically — no code changes.
 ------------------------------------------
 LOGO
 ------------------------------------------
-  logo.svg    — Site logo (currently a placeholder SVG; replace with your real
-                vector logo, OR save your logo as logo.png and update the four
-                <img src="images/logo.svg"> tags in the HTML to logo.png).
+  logo.png       — Full Summit Coatings lockup (white art, transparent background).
+  logo-icon.png  — Mountain/roller hexagon mark; used in the header and footer.
+  (Both are your real logo and are already wired into the site. The old
+   placeholder logo.svg is no longer used.)
 
 ------------------------------------------
 HOME PAGE
@@ -32,13 +33,14 @@ SOCIAL PREVIEW IMAGE
 ------------------------------------------
 PORTFOLIO — "OUR WORK" GALLERY (single combined gallery)
 ------------------------------------------
-  work-1.jpg   — Exterior repaint
-  work-2.jpg   — Commercial ceiling coating
-  work-3.jpg   — Interior repaint
-  work-4.jpg   — Commercial interior
+  work-1.jpg   — Commercial interior
+  work-2.jpg   — Commercial ceiling & walls
+  work-3.jpg   — Mechanical room
+  work-4.jpg   — Kitchen repaint
+  work-5.jpg   — Living room repaint
 
   Add more by copying a .port-item block in portfolio.html and using
-  work-5.jpg, work-6.jpg, etc.
+  work-6.jpg, work-7.jpg, etc.
 
 ------------------------------------------
 CREDENTIALS — fill in before launch
